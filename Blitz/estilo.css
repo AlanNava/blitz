@@ -1,0 +1,22 @@
+textarea{
+    margin: 15px;
+    padding: 10px;
+    min-width: 1108px;
+    max-width: 1108px;
+    font-size: 18px;
+    min-height: 100px;
+    max-height: 100px;
+}
+input[type="submit"]{
+    margin-bottom: 10px;
+}
+.tabla{
+    margin-top: 100px;
+}
+.login{
+    margin: auto;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

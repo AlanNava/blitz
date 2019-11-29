@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Blitz Support</title>
+    <link rel="icon" type="image/png" href="sup.png">
+</head>
+<nav class="navbar navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="#">Blitz Support</a>
+      </nav>
+
+
+<body>
+<SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value=='root' && document.form.login.value=='Alan'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</SCRIPT> 
+    <form name="form" action="home.php" style="margin-left: 42%;">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Usuario</label>
+            <input name="login" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 200px;">
+            </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1" style="width: 200px;">
+            </div>
+            <INPUT onclick=go() type=button value=Acceder>
+    </form>
+</body>
+</html>
